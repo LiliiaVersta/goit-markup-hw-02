@@ -32,8 +32,6 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  width: 261px;
-  height: 24px;
 }
 .header-nav:hover,
 .header-nav:focus {
@@ -73,7 +71,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  background: #4d5ae5;
+  background-color: #404bbf;
   cursor: pointer;
   transition: 0.15s;
 }
