@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: #fff;
+  color: #434455;
 }
 a {
   text-decoration: none;
@@ -34,17 +35,23 @@ ul {
   width: 261px;
   height: 24px;
 }
-.address {
+.header-nav:hover,
+.header-nav:focus {
+  color: #404bbf;
+}
+.contacts-header {
   font-style: normal;
+}
+.contacts-studio {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.address:hover,
-.address:focus {
-  color: #4d5ae5;
+.contacts-studio:hover,
+.contacts-studio:focus {
+  color: #404bbf;
 }
 
 /* main */
@@ -57,6 +64,7 @@ ul {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
   color: #fff;
 }
 .main-button {
@@ -71,8 +79,7 @@ ul {
 }
 .main-button:hover,
 .main-button:focus {
-  color: #4d5ae5;
-  background: #fff;
+  background-color: #404bbf;
 }
 
 /* advantages */
@@ -93,13 +100,20 @@ ul {
 }
 
 /* Our Team */
-
-.ourteam-log {
+.section-ourteam {
+  background-color: #f4f4fd;
+}
+.ourteam-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: #2e2f42;
+}
+.section-list {
+  background-color: #ffffff;
 }
 .person-name {
   font-weight: 500;
@@ -119,8 +133,10 @@ ul {
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .name-portfolio {
