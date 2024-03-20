@@ -73,7 +73,6 @@ ul {
   color: #fff;
   background-color: #4d5ae5;
   cursor: pointer;
-  transition: 0.15s;
 }
 .main-button:hover,
 .main-button:focus {
